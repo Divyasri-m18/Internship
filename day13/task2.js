@@ -1,0 +1,14 @@
+let array1 = [10, 20, 30];
+let array2 = [40, 50, 60];
+let mergedArray = array1.concat(array2);
+console.log(mergedArray);
+let removedItems = mergedArray.splice(2, 2); 
+console.log( mergedArray);
+console.log(removedItems);
+let numericArray = [25, 5, 100, 50];
+numericArray.sort((a, b) => a - b);  
+console.log(numericArray);
+let hasItem = mergedArray.includes(50);
+console.log(hasItem);
+let index = mergedArray.indexOf(40);
+console.log(index);
